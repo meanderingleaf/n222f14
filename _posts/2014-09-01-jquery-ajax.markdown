@@ -25,7 +25,7 @@ Javascript Libraries
 jQuery
 --------------------------
 
--Becoming the defacto standard library
+- Becoming the defacto standard library
 	- Comes packaged with Visual Studio!
 		- You know… Microsoft…
 - To the winner goes the spoils
