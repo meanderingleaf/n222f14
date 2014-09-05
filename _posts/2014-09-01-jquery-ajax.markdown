@@ -83,7 +83,7 @@ jQuery: Adding elements
 
 {% highlight javascript %}
 
-$(“#myDiv”).appendElement(“<p>Hi there!</p>”;);
+$(“#myDiv”).append(“<p>Hi there!</p>”;);
 
 {% endhighlight %}
 
@@ -94,7 +94,7 @@ $(“#myDiv”).appendElement(“<p>Hi there!</p>”;);
 
 {% highlight javascript %}
 
-$(“#myDiv”).prependElement(“<p>Hi there!</p>”;);
+$(“#myDiv”).prepend(“<p>Hi there!</p>”;);
 
 {% endhighlight %}
 
@@ -231,12 +231,9 @@ jQuery AJAX
 ---------------------------------------------
 
 {% highlight javascript %}
-$.ajax({ url: 'ajax/test.html', 
-	success: function(data) { 
-		$('.result').html(data); 
-		alert('Load was performed.');
-	 } 
-});
+$.get("example.txt", function(data) {
+	console.log(data);
+})
 {% endhighlight %}
 
 - Supply an object to the ajax function
