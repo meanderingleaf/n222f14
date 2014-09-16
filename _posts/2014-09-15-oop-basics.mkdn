@@ -409,7 +409,7 @@ Remember, all classes in flash need to be imported. Its fine if you're working w
 
 **important**
 
-In order to have your scripts come in correctly, you will need to add the --out flag to your command in the typescript file watcher. You can edit this in file->settings->file watchers->seelect typescript and click on the little pencil icon. Add it after the --sourcemap option
+In order to have your scripts come in correctly, you will need to add the \--out flag to your command in the typescript file watcher. You can edit this in file->settings->file watchers->seelect typescript and click on the little pencil icon. Add it after the \--sourcemap option
 
 Polymorphism
 --------------------------------------
