@@ -411,6 +411,10 @@ Remember, all classes in flash need to be imported. Its fine if you're working w
 
 In order to have your scripts come in correctly, you will need to add the \--out flag to your command in the typescript file watcher. You can edit this in file->settings->file watchers->seelect typescript and click on the little pencil icon. Add it after the \--sourcemap option
 
+The full line should look like this:
+
+\--out $FileNameWithoutAllExtensions$.js $FileName$
+
 Polymorphism
 --------------------------------------
 
