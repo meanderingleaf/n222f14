@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Oop"
+title:  "Object Oriented Principles"
 date:   2014-09-15 03:24:54
 categories: update
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Git basics"
-date:   2014-09-02 03:24:54
+date:   2014-10-10 03:24:54
 categories: update
 ---
 
@@ -130,23 +130,7 @@ We could do all this on the command line...
 
 ![Git command line](img/gitcmd.png)
 
-Or, of course, we could find a decent GUI
-
-
-SourceTree
-------------------------------------------
-
-- A GUI interface for GIT
-- Available for Windows, Mac
-- [Download Here](http://www.sourcetreeapp.com/)
-
-Setting up SourceTree
---------------------------------------------
-
-- Sourcetree will work with ANY git repo, but plays nicely with a few out of the box
-- Go through the setup wizard until you get to this screen, fill in your github information:
-
-![Source tree setup](img/stSetup.png)
+PHPStorm (thankfully) has built-in tools.
 
 Making a new repo
 --------------------------------------------
