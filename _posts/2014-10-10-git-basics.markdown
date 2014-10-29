@@ -128,7 +128,7 @@ Working with Git
 
 We could do all this on the command line...
 
-![Git command line](img/gitcmd.png)
+![Git command line](assets/img/git/gitcmd.png)
 
 PHPStorm (thankfully) has built-in tools.
 
@@ -137,21 +137,21 @@ Making a new repo
 
 Click on the 'new repo' button on the Github web interface
 
-![New repo button](img/newGit.png)
+![New repo button](assets/img/git/newGit.png)
 
 Fill in the repo name, click create
 
-![New repo info](img/newRep2.png)
+![New repo info](assets/img/git/newRep2.png)
 
 Take note of the git repo's URL:
 
-![New repo info](img/newRep3.png)
+![New repo info](assets/img/git/newRep3.png)
 
 
 Getting that repo onto your computer
 -------------------------------------------
 
-![New repo info](img/cloning.png)
+![New repo info](assets/img/git/cloning.png)
 
 - Click on clone/new
 - Paste in the git repo's URL
@@ -172,11 +172,11 @@ Adding something to your repo
 - Click the 'up' arrow to the changes for a commit (or 'save') to the repo
 	- You can add individually or as a whole (the single or multiple up arrows)
 
-![New repo info](img/stage.png)
+![New repo info](assets/img/git/stage.png)
 
 - Once your changes are in the staging area, click commit and write commit message (try to keep this relevant to what actually changed)
 
-![New repo info](img/commit.png)
+![New repo info](assets/img/git/commit.png)
 
 Once you commit, your changes will be 'saved' to your local repo
 
@@ -188,11 +188,11 @@ Pushing to your remote repo
 - Make sure 'master' is slected
 - Click 'ok'
 
-![New repo info](img/push.png)
+![New repo info](assets/img/git/push.png)
 
 - Your changes will be pushed to your remote repo on Github
 
-![New repo info](img/changeOnGithub.png)
+![New repo info](assets/img/git/changeOnGithub.png)
 
 
 Making changes
@@ -202,11 +202,11 @@ Let's go ahead and simulate someone else making a change to the readme. Click on
 
 (AS A NOTE: THIS IS ONLY FOR DEMONSTRATION PURPOSES. YOU SHOULD NOT BE CODING IN THE WEB INTERFACE.)
 
-![New repo info](img/edit.png)
+![New repo info](assets/img/git/edit.png)
 
 Change the text inside the file to say "Just a test". Scroll down and click "commit changes"
 
-![New repo info](img/edit2.png)
+![New repo info](assets/img/git/edit2.png)
 
 *Now, return to your text editor** and change that same readme file to say "This is a local change". Stage and commit this change.
 
@@ -218,20 +218,20 @@ Now we have a problem. Our local file is different than our remote. And our loca
 
 - Head into source tree and click 'push'
 
-![New repo info](img/pull.png)
+![New repo info](assets/img/git/pull.png)
 
 You will get an error saying your 
 
 - Head into source tree and click 'pull'
 
-![New repo info](img/pull.png)
+![New repo info](assets/img/git/pull.png)
 
 - We have errors!
 - We need to manaully *merge* our files
 
 - Open up 'README.mkdn', it will look something like this:
 
-![New repo info](img/unmerged.png)
+![New repo info](assets/img/git/unmerged.png)
 
 Edit this file so it just says, "This is the merged file" (nothing else)
 
