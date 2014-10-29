@@ -41,13 +41,14 @@ Tons of plugins developed
 jQuery: Selectors
 --------------------------
 
-- jQuery works using css selectors
+jQuery works using css selectors
  - \# to select a DOM element with an ID
  - . To select a DOM element with a class
-- Can also use the generic class (“a” or “li”)
-- Can target nested objects with a space
-- #myDiv .nav li
-- Would select all the li elements inside of anything with a class of ‘nav’ inside of a div with id of ‘myDiv’
+
+Can also use the generic class (“a” or “li”)
+Can target nested objects with a space
+	- \#myDiv .nav li
+	- The above would select all the li elements inside of anything with a class of ‘nav’ inside of a div with id of ‘myDiv’
 
 
 jQuery: Selecting
