@@ -105,21 +105,23 @@ Merging
 Getting our own remote repo
 ----------------------------------------
 
-- Can set up on your own web server
-- Find a hosting provider
+Can set up on your own web server
+
+Find a hosting provider
+
 	- GitHub
 	- Bitbucket
 	- Stash
 	- SourceForge
 
-- We'll be using GitHub
+We'll be using GitHub
 
 Github
 -----------------------------------------
 
 - One of the larger open source repository hosts
 - Runs on git, as one might assume
-- (Github)[https://github.com/]
+- [Github](https://github.com/)
 - Go ahead and sign up for an account
 
 
@@ -151,11 +153,17 @@ Take note of the git repo's URL:
 Getting that repo onto your computer
 -------------------------------------------
 
-![New repo info]({{ site.baseurl }}/assets/img/git/cloning.png)
+![New repo info]({{ site.baseurl }}/assets/img/git/cloning1.png)
 
-- Click on clone/new
-- Paste in the git repo's URL
-- Choose a destination path that you know where it is.
+- Vcs ->checkout from source control -> git
+
+![New repo info]({{ site.baseurl }}/assets/img/git/cloning2.png)
+
+- Paste the URL
+
+![New repo info]({{ site.baseurl }}/assets/img/git/cloning3.png)
+
+**UNCHECK THE .IDEA DIRECTORY**
 
 
 Adding something to your repo
@@ -166,33 +174,27 @@ Adding something to your repo
 - Edit that file to say "Hello world"
 - Save the file
 
-- Return to source tree
-	- Note that our file now appears in the "working copy changes" view
-	- But its not yet 'staged'
-- Click the 'up' arrow to the changes for a commit (or 'save') to the repo
-	- You can add individually or as a whole (the single or multiple up arrows)
+![New repo info]({{ site.baseurl }}/assets/img/git/commit1.png)
 
-![New repo info]({{ site.baseurl }}/assets/img/git/stage.png)
+- Go to vcs->git->commit file (or vcs->commit chnages)
 
-- Once your changes are in the staging area, click commit and write commit message (try to keep this relevant to what actually changed)
+![New repo info]({{ site.baseurl }}/assets/img/git/commit2.png)
 
-![New repo info]({{ site.baseurl }}/assets/img/git/commit.png)
-
-Once you commit, your changes will be 'saved' to your local repo
+Select the files you want to commit and click the commit button
 
 
 Pushing to your remote repo
 -----------------------------------------------
 
-- Click on the 'push' button
-- Make sure 'master' is slected
-- Click 'ok'
 
-![New repo info]({{ site.baseurl }}/assets/img/git/push.png)
 
-- Your changes will be pushed to your remote repo on Github
+![New repo info]({{ site.baseurl }}/assets/img/git/push1.png)
 
-![New repo info]({{ site.baseurl }}/assets/img/git/changeOnGithub.png)
+vcs->git->push
+
+![New repo info]({{ site.baseurl }}/assets/img/git/push2.png)
+
+Select your must recent commit and click 'push'.
 
 
 Making changes
