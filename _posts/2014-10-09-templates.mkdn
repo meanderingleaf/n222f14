@@ -79,9 +79,9 @@ Using handlebars
 
 <script id="entry-template" type="text/x-handlebars-template">
 <div class="entry">
-  <h1>{{ "{{  title " }}}}</h1>
+  <h1>{{ "{{   title " }}}}</h1>
   <div class="body">
-    {{body}}
+    {{ "{{   body " }}}}
   </div>
 </div>
 </script>
@@ -146,9 +146,9 @@ Each example
 {% highlight html %}
 <script id="people-template" type="text/x-handlebars-template">
 	<ul class="people_list">
-		 {{#each people}}
-			 <li>{{this}}</li> 
-		{{/each}} 
+		 {{ "{{  #each people" }}}}
+			 <li>{{ "{{  this" }}}}</li> 
+		{{ "{{  /each" }}}} 
 	</ul> 
 </script>
 {% endhighlight %}
