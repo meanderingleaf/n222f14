@@ -194,9 +194,12 @@ Getting jQUery
 ---------------------------------------
 
 Download the library at [http://jquery.com/](http://jquery.com/)
+
 	- Download it an include it with your files
 	- Typically stored in a folder called ‘js’ or ‘scripts’
+
 Or, use the version hosted on google ajax libraries
+
 	- Will load faster on user machines who have already visited a site that used this jQuery link
 	- Will _not_ work if you do not have an internet connection and are developing on your local machine
 
@@ -218,6 +221,7 @@ AJAX
 -----------------------------------------
 
 Short for Asynchronous Javascript and XML
+
 	- A method for loading in textual resource at runtime
 	- Developed by Microsoft
 
@@ -226,12 +230,14 @@ AJAX
 -------------------------------------------
 
 A way of loading in new content for your application **at runtime**
+
 	- XML
 	- JSON
 	- Entirely new pages
 	- Lightboxes
 
 Can send data along with the request as well
+
 	- POST
 	- GET
 
@@ -253,6 +259,7 @@ Inline functions
 ---------------------------------------------
 
 This is the first time we have seen an inline function
+
 	- Inline functions are ones that we define within another function’s context
 
 Typically they do not have a name
