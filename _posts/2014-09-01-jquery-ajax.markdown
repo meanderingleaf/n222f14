@@ -13,11 +13,13 @@ Javascript Libraries
 -------------------------
 
 Writing plain JS can be troublesome
+
 	- Inconsistent implementation across browsers
 	- Extremely long syntax
 	- Several lines of code needed to accomplish easy tasks
 
 Several JS libraries arose to deal with these issues
+
 	- MooTools
 	- Scriptaculous
 	- jQuery
@@ -29,6 +31,7 @@ jQuery
 Becoming the defacto standard library
 
 To the winner goes the spoils
+
 	- jQuery will most likely be cached on the user’s machine
 		- No performance hit to include in your site
 		- ONLY IF you use a link to a jQuery the user has already downloaded
@@ -42,10 +45,12 @@ jQuery: Selectors
 --------------------------
 
 jQuery works using css selectors
+
  - \# to select a DOM element with an ID
  - . To select a DOM element with a class
 
 Can also use the generic class (“a” or “li”)
+
 Can target nested objects with a space
 	- \#myDiv .nav li
 	- The above would select all the li elements inside of anything with a class of ‘nav’ inside of a div with id of ‘myDiv’
