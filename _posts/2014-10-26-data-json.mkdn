@@ -173,7 +173,7 @@ Example JSON Music library
 {% highlight javascript %}
 {
 	
-	"albums": {
+	"albums": [
 		[
 			{
 				"title": "The Else", 
@@ -194,7 +194,7 @@ Example JSON Music library
 				]
 
 			}
-	}
+	]
 }
 {% endhighlight %}
 
