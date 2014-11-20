@@ -10,7 +10,7 @@ Underscore
 -------------------------
 
 
-[Uderscore.js](http://underscorejs.org/) is a javascript library that "useful functional programming helpers without extending any built-in objects."
+[Underscore.js](http://underscorejs.org/) is a javascript library that "useful functional programming helpers without extending any built-in objects."
 
 In this class we're going to be using it primarily for its ability to work with collections (such as our JSON data). You can think of collections, typically, as arrays of objects.
 
@@ -25,7 +25,7 @@ Typically when you have a collection you are quite often going to need to do a f
 Our data
 -------------------------------
 
-```
+{% highlight javascript %}
 {
 
     "list": [
@@ -36,7 +36,8 @@ Our data
     ]
 
 }
-```
+{% endhighlight %}
+
 
 Sorting Collections
 --------------------------------
